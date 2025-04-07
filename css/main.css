@@ -140,3 +140,57 @@ a {
 	}
 
 }
+
+.cd-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+    min-height: 100vh;
+    text-align: center;
+  }
+
+  /* Título principal */
+  .cd-intro .stitle {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+
+  /* Texto debajo del título */
+  .cd-headline {
+    font-size: 1.8rem;
+    line-height: 1.6;
+    max-width: 90%;
+  }
+
+  .cd-words-wrapper {
+    display: block;
+  }
+
+  .cd-words-wrapper b {
+    display: block;
+    margin: 1rem 0;
+    font-size: 1.6rem;
+  }
+
+  /* Ajustes para pantallas más grandes (opcional) */
+  @media screen and (min-width: 768px) {
+    .cd-intro {
+      padding: 6rem 4rem;
+    }
+
+    .cd-intro .stitle {
+      font-size: 3rem;
+    }
+
+    .cd-headline {
+      font-size: 2rem;
+    }
+
+    .cd-words-wrapper b {
+      font-size: 1.8rem;
+    }
+  }
